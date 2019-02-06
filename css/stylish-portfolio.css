@@ -379,3 +379,9 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: rgb(60, 190, 240) !important;
 }
+
+.mypicture{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
