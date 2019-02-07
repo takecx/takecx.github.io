@@ -43,18 +43,18 @@
     $('.books-slider').slick({
       infinite: true,
       dots: true,
-      slidesToShow: 5,
-      slidesToScroll: 5,
+      slidesToShow: 4,
+      slidesToScroll: 4,
       autoplay: true,
       autoplaySpeed: 5000,
       responsive: [{
-        breakpoint: 768,
+        breakpoint: 696,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
         }
       }, {
-        breakpoint: 480,
+        breakpoint: 464,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
