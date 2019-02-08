@@ -126,8 +126,8 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #1D809F;
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgb(231, 235, 227);
+  border-left: 1px solid rgb(161, 165, 157,0.7);
 }
 
 .sidebar-nav {
@@ -142,14 +142,13 @@ h6 {
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: #000;
   padding: 15px;
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .sidebar-nav li a:active,
@@ -168,11 +167,10 @@ h6 {
 }
 
 .sidebar-nav > .sidebar-brand a {
-  color: #fff;
+  color: #000;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
   background: none;
 }
 
@@ -295,7 +293,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(60, 190, 240, 0.9);
+    background-color: rgb(161, 165, 157);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -312,7 +310,7 @@ footer.footer {
   width: 4rem;
   line-height: 4.5rem;
   font-size: 1.5rem;
-  background-color: rgba(60, 190, 240, 0.9);
+  background-color: rgb(161, 165, 157);
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -320,27 +318,9 @@ footer.footer {
 }
 
 .social-link:hover {
-  background-color: #155d74;
+  background-color: rgb(60, 190, 240);
   text-decoration: none;
 }
-
-/* footer.footer .social-link {
-  display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #1D809F;
-  -webkit-transition: background-color 0.15s ease-in-out;
-  transition: background-color 0.15s ease-in-out;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-footer.footer .social-link:hover {
-  background-color: #155d74;
-  text-decoration: none;
-} */
 
 a {
   color: #1D809F;
@@ -351,14 +331,14 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: rgb(161, 165, 157) !important;
+  border-color: rgb(161, 165, 157) !important;
   color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: rgb(60, 190, 240) !important;
+  border-color: rgb(60, 190, 240) !important;
 }
 
 .btn-secondary {
@@ -396,6 +376,7 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: rgb(60, 190, 240) !important;
+  unde
 }
 
 .mypicture{
