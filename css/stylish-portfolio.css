@@ -306,7 +306,25 @@ footer.footer {
   padding-bottom: 5rem;
 }
 
-footer.footer .social-link {
+.social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.5rem;
+  font-size: 1.5rem;
+  background-color: rgba(60, 190, 240, 0.9);
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.social-link:hover {
+  background-color: #155d74;
+  text-decoration: none;
+}
+
+/* footer.footer .social-link {
   display: block;
   height: 4rem;
   width: 4rem;
@@ -322,7 +340,7 @@ footer.footer .social-link {
 footer.footer .social-link:hover {
   background-color: #155d74;
   text-decoration: none;
-}
+} */
 
 a {
   color: #1D809F;
@@ -384,4 +402,15 @@ a:hover, a:focus, a:active {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
+}
+
+li.about-list-item {
+  font-size: 30px;
+  color: black;
+  border-left: solid 6px rgb(201, 205, 197);/*左側の線*/
+  background: rgb(231, 235, 227);/*背景色*/
+  margin-bottom: 3px;/*下のバーとの余白*/
+ 	line-height: 1.5;
+  	padding: 0.5em;
+  list-style-type: none!important;/*ポチ消す*/
 }
